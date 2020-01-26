@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const StoryWrapper = styled.section`
-  padding-top: 10px;
+  padding: 0 0 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
 
   &:first-of-type {
     border-top: 0;
+    margin-top: 50px;
   }
 
   &:last-of-type {
