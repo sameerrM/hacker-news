@@ -16,7 +16,7 @@ export const useInfiniteScroll = () => {
         }
 
         setLoading(true);
-    }, 500);
+    }, 200);
 
     useEffect(() => {
         if(!loading) return;
